@@ -1,0 +1,49 @@
+.contato {
+    height: 500px;
+    background-color: #AF2F2F;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-logo {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.form-logo img {
+    height: 50%;
+}
+
+.form-logo form input {
+    width: 494px;
+    height: 50px;
+}
+
+.form-logo form button {
+    width: 223px;
+    height: 50px;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+    background-color: #716B6B;
+}
+
+.form-logo form button:hover {
+    background-color: black;
+    color: white;
+}
+
+.form-logo form textarea {
+    width: 494px;
+    height: 100px;
+}
+
+.img-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

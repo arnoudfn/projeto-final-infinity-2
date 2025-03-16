@@ -1,4 +1,5 @@
 .newsletter {
+    margin-top: 100px;
     height: 200px;
     background-color: #AF2F2F;
     color: white;
@@ -29,6 +30,8 @@
     border-radius: 0 7px 7px 0;
     border: none;
     cursor: pointer;
+    background-color: #716B6B;
+    color: white;
 }
 
 .newsletter button:hover{

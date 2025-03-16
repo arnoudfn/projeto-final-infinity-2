@@ -3,6 +3,9 @@
 @import url(category.css);
 @import url(destaque.css);
 @import url(newslatter.css);
+@import url(declaration.css);
+@import url(contact.css);
+@import url(footer.css);
 
 * {
     margin: 0;

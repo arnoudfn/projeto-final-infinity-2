@@ -1,0 +1,26 @@
+.declarations {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.declaration {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    
+}
+
+.declaration div {
+    background-color: #AF2F2F;
+    width: 467px;
+    height: auto;
+    padding: 10px;
+    margin: 5px;
+    color: white;
+}
+
+.declaration span {
+    font-size: 30px;
+}
