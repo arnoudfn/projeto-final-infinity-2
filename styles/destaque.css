@@ -1,36 +1,32 @@
-.products{
+.products {
     display: flex;
+    flex-direction: column;  /* Adicionei esta linha */
     align-items: center;
     justify-content: center;
     padding: 40px;
+    text-align: center;  /* Para centralizar o título */
 }
 
 .destaque {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    justify-content: space-around;
+    gap: 20px;
+    justify-content: center;
     align-items: center;
-    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;  
     padding: 20px;
-    
-    
 }
 
 .destaque .cards {
-    width: 336px;
-    height: 474px;
+    width: 100%;
+    max-width: 336px;
+    height: auto; 
+    min-height: 474px;
     border-radius: 7px;
     border: 1px solid #AF2F2F;
     display: flex;
-    
-}
-
-.destaque div img {
-    max-width: 90%;
-    height: auto;
-    display: block;
-    border-radius: 7px;
+    margin: 0 auto;
 }
 
 .cards {
@@ -39,6 +35,13 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-
     gap: 10px;
+    padding: 15px;
+}
+
+.destaque div img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 7px;
 }
