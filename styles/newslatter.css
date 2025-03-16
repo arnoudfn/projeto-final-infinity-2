@@ -1,0 +1,44 @@
+.newsletter {
+    height: 200px;
+    background-color: #AF2F2F;
+    color: white;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.newsletter h2 {
+    font-size: 64px;
+}
+
+.newsletter p {
+    font-size: 32px;
+}
+
+.newsletter input {
+    width: 621px;
+    height: 58px;
+    border: none;
+}
+
+.newsletter button {
+    width: 229px;
+    height: 58px;
+    border-radius: 0 7px 7px 0;
+    border: none;
+    cursor: pointer;
+}
+
+.newsletter button:hover{
+    background-color: black;
+    transition: 0.3s;
+    color: white;
+}
+
+.newsletter div {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+}

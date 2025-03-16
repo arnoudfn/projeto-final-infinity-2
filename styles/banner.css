@@ -1,0 +1,36 @@
+.box {
+    height: 60vh;
+    background-image: url('../assets/banner.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    color: white;
+    gap: 10px;
+}
+
+.box img {
+    height: 40%;
+}
+
+.btn {
+    width: 174px;
+    height: 36px;
+    background-color: #AF2F2F;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 7px;
+    color: white;
+    transition: 0.3s;
+
+}
+
+.btn:hover {
+    background-color: black;
+}

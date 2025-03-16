@@ -1,0 +1,44 @@
+.products{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.destaque {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    
+    
+}
+
+.destaque .cards {
+    width: 336px;
+    height: 474px;
+    border-radius: 7px;
+    border: 1px solid #AF2F2F;
+    display: flex;
+    
+}
+
+.destaque div img {
+    max-width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 7px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    gap: 10px;
+}

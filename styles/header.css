@@ -1,0 +1,53 @@
+
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #AF2F2F;
+    padding: 15px;
+    align-items: center;
+}
+
+header nav ul{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+.search {
+    height: 39px;
+    border: none;
+}
+
+header div button {
+    height: 39px;
+    border-radius: 0 7px 7px 0;
+    border: none;
+    padding: 0 10px;
+    cursor: pointer;
+    background-color: #716B6B;
+    color: white;
+    transition: 0.3s;
+}
+
+header div button:hover {
+    background-color: black;
+    color: white;
+}
+
+header div {
+    display: flex;
+    margin: 0;
+    padding: 10px;
+}
+
